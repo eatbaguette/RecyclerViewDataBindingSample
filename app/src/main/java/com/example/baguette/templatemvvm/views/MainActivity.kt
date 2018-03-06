@@ -7,6 +7,8 @@ import android.support.v7.widget.LinearLayoutManager
 import com.example.baguette.templatemvvm.AppApplication
 import com.example.baguette.templatemvvm.R
 import com.example.baguette.templatemvvm.databinding.ActivityMainBinding
+import com.example.baguette.templatemvvm.model.EvenNumberListItem
+import com.example.baguette.templatemvvm.model.OddNumberListItem
 import com.example.baguette.templatemvvm.viewmovel.MainViewModel
 import com.squareup.haha.perflib.Main
 import javax.inject.Inject
@@ -40,8 +42,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         recyclerViewAdapter.upDateItems(
-                MainRecyclerViewAdapter.EvenNumberListItem(2),
-                MainRecyclerViewAdapter.OddNumberListItem(1)
+                EvenNumberListItem(2),
+                OddNumberListItem(1)
         )
         recyclerViewAdapter.notifyDataSetChanged()
     }
