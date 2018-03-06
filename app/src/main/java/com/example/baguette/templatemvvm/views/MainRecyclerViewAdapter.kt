@@ -7,6 +7,8 @@ import android.view.ViewGroup
 import com.example.baguette.templatemvvm.R
 import com.example.baguette.templatemvvm.databinding.EvenNumberRecyclerViewCellBinding
 import com.example.baguette.templatemvvm.databinding.OddNumberRecyclerViewCellBinding
+import com.example.baguette.templatemvvm.model.EvenNumberListItem
+import com.example.baguette.templatemvvm.model.OddNumberListItem
 import timber.log.Timber
 
 
@@ -96,14 +98,4 @@ class MainRecyclerViewAdapter(private val context: Context): RecyclerView.Adapte
         this.items = items
         notifyDataSetChanged()
     }
-
-
-    // とりあえずここにモデルを書いておく
-    data class OddNumberListItem(
-            private val number: Int
-    )
-
-    data class EvenNumberListItem(
-            private val number: Int
-    )
 }
