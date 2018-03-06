@@ -6,7 +6,6 @@ import timber.log.Timber
 
 class MyDebugTree : Timber.DebugTree() {
     override fun log(priority: Int, tag: String?, message: String, t: Throwable?) {
-        super.log(priority, tag, message, t)
         val thread = Throwable().stackTrace
 
         if (thread != null && thread.size >= 5) {

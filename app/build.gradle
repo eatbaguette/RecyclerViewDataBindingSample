@@ -60,12 +60,6 @@ dependencies {
     compile 'com.facebook.stetho:stetho-js-rhino:1.5.0'
     compile 'com.uphyca:stetho_realm:2.0.0'
 
-    // Koreference
-    compile 'com.github.takuji31.Koreference:koreference:2.0.0'
-
-    // EventBus
-    compile 'org.greenrobot:eventbus:3.1.1'
-
     // Dagger2
     compile "com.google.dagger:dagger:2.14.1"
     kapt "com.google.dagger:dagger-compiler:2.14.1"
@@ -78,12 +72,17 @@ dependencies {
     releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
 
     //Moshi
-    def moshi_version = '1.5.0'
-    implementation "com.squareup.moshi:moshi:$moshi_version"
-    implementation "com.squareup.moshi:moshi-kotlin:$moshi_version"
+    implementation "com.squareup.moshi:moshi:1.5.0"
+    implementation "com.squareup.moshi:moshi-kotlin:1.5.0"
 
     // fliptable
     compile 'com.jakewharton.fliptables:fliptables:1.0.2'
+
+    // ThreetenABP
+    compile 'com.jakewharton.threetenabp:threetenabp:1.0.5'
+
+    // Kotpref SharedPreferences
+    implementation "com.chibatching.kotpref:kotpref:2.4.0"
 }
 
 repositories {
