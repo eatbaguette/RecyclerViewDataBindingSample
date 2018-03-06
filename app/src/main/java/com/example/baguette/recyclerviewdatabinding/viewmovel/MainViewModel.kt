@@ -1,4 +1,4 @@
-package com.example.baguette.templatemvvm.viewmovel
+package com.example.baguette.recyclerviewdatabinding.viewmovel
 
 import jp.keita.kagurazaka.rxproperty.RxProperty
 

@@ -1,4 +1,4 @@
-package com.example.baguette.templatemvvm
+package com.example.baguette.recyclerviewdatabinding
 
 import org.junit.Test
 

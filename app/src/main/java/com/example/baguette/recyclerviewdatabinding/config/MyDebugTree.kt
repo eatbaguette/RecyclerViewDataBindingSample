@@ -1,4 +1,4 @@
-package com.example.baguette.templatemvvm.config
+package com.example.baguette.recyclerviewdatabinding.config
 
 import android.util.Log
 import timber.log.Timber

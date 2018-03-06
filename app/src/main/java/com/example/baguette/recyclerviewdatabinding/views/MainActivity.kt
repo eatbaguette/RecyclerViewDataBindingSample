@@ -1,16 +1,15 @@
-package com.example.baguette.templatemvvm.views
+package com.example.baguette.recyclerviewdatabinding.views
 
 import android.databinding.DataBindingUtil
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
-import com.example.baguette.templatemvvm.AppApplication
-import com.example.baguette.templatemvvm.R
-import com.example.baguette.templatemvvm.databinding.ActivityMainBinding
-import com.example.baguette.templatemvvm.model.EvenNumberListItem
-import com.example.baguette.templatemvvm.model.OddNumberListItem
-import com.example.baguette.templatemvvm.viewmovel.MainViewModel
-import com.squareup.haha.perflib.Main
+import com.example.baguette.recyclerviewdatabinding.AppApplication
+import com.example.baguette.recyclerviewdatabinding.R
+import com.example.baguette.recyclerviewdatabinding.databinding.ActivityMainBinding
+import com.example.baguette.recyclerviewdatabinding.model.EvenNumberListItem
+import com.example.baguette.recyclerviewdatabinding.model.OddNumberListItem
+import com.example.baguette.recyclerviewdatabinding.viewmovel.MainViewModel
 import javax.inject.Inject
 
 class MainActivity : AppCompatActivity() {

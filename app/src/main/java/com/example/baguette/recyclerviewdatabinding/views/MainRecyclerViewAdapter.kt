@@ -1,15 +1,15 @@
-package com.example.baguette.templatemvvm.views
+package com.example.baguette.recyclerviewdatabinding.views
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.example.baguette.templatemvvm.BR
-import com.example.baguette.templatemvvm.R
-import com.example.baguette.templatemvvm.databinding.EvenNumberRecyclerViewCellBinding
-import com.example.baguette.templatemvvm.databinding.OddNumberRecyclerViewCellBinding
-import com.example.baguette.templatemvvm.model.EvenNumberListItem
-import com.example.baguette.templatemvvm.model.OddNumberListItem
+import com.example.baguette.recyclerviewdatabinding.BR
+import com.example.baguette.recyclerviewdatabinding.R
+import com.example.baguette.recyclerviewdatabinding.databinding.EvenNumberRecyclerViewCellBinding
+import com.example.baguette.recyclerviewdatabinding.databinding.OddNumberRecyclerViewCellBinding
+import com.example.baguette.recyclerviewdatabinding.model.EvenNumberListItem
+import com.example.baguette.recyclerviewdatabinding.model.OddNumberListItem
 import timber.log.Timber
 
 

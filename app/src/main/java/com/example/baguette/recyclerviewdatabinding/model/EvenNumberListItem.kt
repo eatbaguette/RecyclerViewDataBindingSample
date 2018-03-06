@@ -1,4 +1,4 @@
-package com.example.baguette.templatemvvm.model
+package com.example.baguette.recyclerviewdatabinding.model
 
 
 data class EvenNumberListItem(

@@ -1,6 +1,6 @@
-package com.example.baguette.templatemvvm.di
+package com.example.baguette.recyclerviewdatabinding.di
 
-import com.example.baguette.templatemvvm.views.MainActivity
+import com.example.baguette.recyclerviewdatabinding.views.MainActivity
 import dagger.Component
 import javax.inject.Singleton
 

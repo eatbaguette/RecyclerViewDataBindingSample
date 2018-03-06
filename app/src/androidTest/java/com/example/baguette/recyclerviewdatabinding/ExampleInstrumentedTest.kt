@@ -1,4 +1,4 @@
-package com.example.baguette.templatemvvm
+package com.example.baguette.recyclerviewdatabinding
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

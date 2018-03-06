@@ -1,8 +1,8 @@
-package com.example.baguette.templatemvvm.di
+package com.example.baguette.recyclerviewdatabinding.di
 
 import android.content.Context
-import com.example.baguette.templatemvvm.AppApplication
-import com.example.baguette.templatemvvm.viewmovel.MainViewModel
+import com.example.baguette.recyclerviewdatabinding.AppApplication
+import com.example.baguette.recyclerviewdatabinding.viewmovel.MainViewModel
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

@@ -7,14 +7,14 @@
 
         <variable
             name="viewModel"
-            type="com.example.baguette.templatemvvm.viewmovel.MainViewModel" />
+            type="com.example.baguette.recyclerviewdatabinding.viewmovel.MainViewModel" />
 
     </data>
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.example.baguette.templatemvvm.views.MainActivity">
+        tools:context="com.example.baguette.recyclerviewdatabinding.views.MainActivity">
 
         <TextView
             android:id="@+id/text_view_main"

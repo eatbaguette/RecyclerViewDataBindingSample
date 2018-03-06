@@ -1,10 +1,10 @@
-package com.example.baguette.templatemvvm
+package com.example.baguette.recyclerviewdatabinding
 
 import android.app.Application
-import com.example.baguette.templatemvvm.config.MyDebugTree
-import com.example.baguette.templatemvvm.di.AppComponent
-import com.example.baguette.templatemvvm.di.AppModule
-import com.example.baguette.templatemvvm.di.DaggerAppComponent
+import com.example.baguette.recyclerviewdatabinding.config.MyDebugTree
+import com.example.baguette.recyclerviewdatabinding.di.AppComponent
+import com.example.baguette.recyclerviewdatabinding.di.AppModule
+import com.example.baguette.recyclerviewdatabinding.di.DaggerAppComponent
 import com.facebook.stetho.Stetho
 import com.squareup.leakcanary.LeakCanary
 import com.uphyca.stetho_realm.RealmInspectorModulesProvider

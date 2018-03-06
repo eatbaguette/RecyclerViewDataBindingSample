@@ -6,7 +6,7 @@ apply plugin: 'kotlin-kapt'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.example.baguette.templatemvvm"
+        applicationId "com.example.baguette.recyclerviewdatabinding"
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
