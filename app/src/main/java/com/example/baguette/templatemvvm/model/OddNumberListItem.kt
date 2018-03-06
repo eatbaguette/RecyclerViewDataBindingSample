@@ -1,5 +1,5 @@
 package com.example.baguette.templatemvvm.model
 
 data class OddNumberListItem(
-        private val number: Int
+        val number: Int
 )

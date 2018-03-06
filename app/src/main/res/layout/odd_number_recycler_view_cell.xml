@@ -2,6 +2,13 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <data>
+
+        <variable
+            name="number"
+            type="String" />
+    </data>
+
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -10,7 +17,7 @@
             android:id="@+id/odd_number_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="odd"
+            android:text="@{number}"
             android:background="#00FFBF"/>
 
     </android.support.constraint.ConstraintLayout>

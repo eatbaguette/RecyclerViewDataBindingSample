@@ -4,6 +4,7 @@ import android.content.Context
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import com.example.baguette.templatemvvm.BR
 import com.example.baguette.templatemvvm.R
 import com.example.baguette.templatemvvm.databinding.EvenNumberRecyclerViewCellBinding
 import com.example.baguette.templatemvvm.databinding.OddNumberRecyclerViewCellBinding
@@ -41,6 +42,7 @@ class MainRecyclerViewAdapter(private val context: Context): RecyclerView.Adapte
     private class OddNumberViewHolder(
             val binding: OddNumberRecyclerViewCellBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(viewItem: OddNumberViewItem) {
+            binding.setVariable(BR.number, viewItem.item.number.toString())
             binding.executePendingBindings()
         }
     }
